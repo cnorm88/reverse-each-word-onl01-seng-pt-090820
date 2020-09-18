@@ -12,12 +12,7 @@
 
 def reverse_each_word(sentence)
    new_word = sentence.split
-   
    updated_sentence = new_word.collect {|backward| 
-   backward.reverse
-     
-   }
+   backward.reverse}
    updated_sentence.join(" ")
-   
-   
 end
